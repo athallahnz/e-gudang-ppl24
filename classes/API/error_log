@@ -1,0 +1,33 @@
+[07-Mar-2023 01:42:30 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/stikesyr/public_html/classes/API/telegramapi.php on line 95
+[07-Mar-2023 01:42:37 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/stikesyr/public_html/classes/API/telegramapi.php on line 95
+[07-Mar-2023 01:42:38 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/stikesyr/public_html/classes/API/telegramapi.php on line 95
+[07-Mar-2023 01:44:17 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/stikesyr/public_html/classes/API/telegramapi.php on line 95
+[07-Mar-2023 01:44:22 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/stikesyr/public_html/classes/API/telegramapi.php on line 95
+[07-Mar-2023 01:46:10 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/stikesyr/public_html/classes/API/telegramapi.php on line 95
+[07-Mar-2023 01:53:44 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/stikesyr/public_html/classes/API/telegramapi.php on line 60
+[07-Mar-2023 01:54:30 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/stikesyr/public_html/classes/API/telegramapi.php on line 60
+[07-Mar-2023 01:57:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_result() in /home/stikesyr/public_html/classes/API/telegramapi.php:58
+Stack trace:
+#0 {main}
+  thrown in /home/stikesyr/public_html/classes/API/telegramapi.php on line 58
+[07-Mar-2023 01:57:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_result() in /home/stikesyr/public_html/classes/API/telegramapi.php:58
+Stack trace:
+#0 {main}
+  thrown in /home/stikesyr/public_html/classes/API/telegramapi.php on line 58
+[07-Mar-2023 01:57:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_result() in /home/stikesyr/public_html/classes/API/telegramapi.php:58
+Stack trace:
+#0 {main}
+  thrown in /home/stikesyr/public_html/classes/API/telegramapi.php on line 58
+[07-Mar-2023 01:57:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_result() in /home/stikesyr/public_html/classes/API/telegramapi.php:58
+Stack trace:
+#0 {main}
+  thrown in /home/stikesyr/public_html/classes/API/telegramapi.php on line 58
+[07-Mar-2023 01:57:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_result() in /home/stikesyr/public_html/classes/API/telegramapi.php:58
+Stack trace:
+#0 {main}
+  thrown in /home/stikesyr/public_html/classes/API/telegramapi.php on line 58
+[07-Mar-2023 02:02:32 UTC] PHP Notice:  Undefined index: acara in /home/stikesyr/public_html/classes/API/telegramapi.php on line 60
+[07-Mar-2023 02:02:32 UTC] PHP Notice:  Undefined index: tgl_rapat in /home/stikesyr/public_html/classes/API/telegramapi.php on line 61
+[07-Mar-2023 02:02:32 UTC] PHP Notice:  Undefined offset: 2 in /home/stikesyr/public_html/classes/API/telegramapi.php on line 44
+[07-Mar-2023 02:02:32 UTC] PHP Notice:  Undefined offset: 1 in /home/stikesyr/public_html/classes/API/telegramapi.php on line 44
+[07-Mar-2023 02:02:32 UTC] PHP Notice:  Undefined offset: 0 in /home/stikesyr/public_html/classes/API/telegramapi.php on line 44

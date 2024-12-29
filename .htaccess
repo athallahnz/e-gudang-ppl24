@@ -1,0 +1,13 @@
+RewriteEngine On
+# This will enable the Rewrite capabilities
+RewriteCond %{HTTPS} !=on
+# This checks to make sure the connection is not already HTTPS
+# dimatikan karena error tdk bisa dibuka
+RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R,L]
+IndexIgnore *
+#directory browsing
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php
+
+Options All -Indexes

@@ -23,7 +23,7 @@ if (isset($_GET['id'])) {
     // Periksa apakah tipe masih terkait dengan barang lain
     if ($select_row->num_rows < 1) {
         // Menggunakan prepared statement untuk menghapus tipe
-        $stmt_delete = $connect->prepare("DELETE FROM tipe_aset WHERE id = ?");
+        $stmt_delete = $connect->prepare("DELETE FROM tipe_raw WHERE id = ?");
         $stmt_delete->bind_param("i", $id);
         $delete_success = $stmt_delete->execute();
 
